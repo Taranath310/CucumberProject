@@ -30,6 +30,7 @@ public class LoginPage {
         WebElement passwordInput = driver.findElement(passwordInputLocator);
         passwordInput.sendKeys(password);
     }
+    //above method will enter the given password
 
     public void clickLoginButton() {
         WebElement loginButton = driver.findElement(loginButtonLocator);
