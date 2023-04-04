@@ -12,6 +12,7 @@ public class LoginPage {
     private By passwordInputLocator = By.id("email-helper-text");
     private By loginButtonLocator = By.xpath("//button[text()='Sign in']");
     private By allProjectsTitle = By.xpath("//div[@class='col-span-8 header_text pl-4 pt-2']");
+    private By allSampleLinks = By.xpath("//div[@class='col-span-8 header_text pl-4 pt-2']");
 
 
     // Constructor
